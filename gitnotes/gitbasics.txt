@@ -4,3 +4,27 @@ git init
 git remote add origin “https://github.com/git-test-jaz/hello-git.git”
 
 $ git pull origin master
+
+
+CREAING BRANCH
+$ git branch first
+$ git checkout first
+$ ls
+
+USER@DESKTOP-UDUVLJC MINGW64 ~/Desktop/djdoctutorial/djangodoc/gitnotes (main)
+$ echo "this is a new file to check git branch " >> test.txt
+
+USER@DESKTOP-UDUVLJC MINGW64 ~/Desktop/djdoctutorial/djangodoc/gitnotes (main)
+$ cd ..
+
+USER@DESKTOP-UDUVLJC MINGW64 ~/Desktop/djdoctutorial (first)
+$ git status
+
+$ cd djangodoc/
+$ git branch first
+$ git checkout first
+$ git add *
+$ git commit -m "1st commit for test file on first branch"
+
+REMOTE BRANCH 
+$ git push origin first
