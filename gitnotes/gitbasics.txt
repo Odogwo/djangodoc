@@ -50,7 +50,7 @@ DELETE BRANCH
 $ git branch -d first
 $ git branch -D tst-br    or this 
   REMOTE
-  
+git push origin –delete first
 
 RECOVER A BRANCH
 from
