@@ -1,3 +1,6 @@
+SOURCES
+https://www.jquery-az.com/3-examples-delete-git-remote-local-branch/
+
 HOW TO USE GIT BRANCH 
 
 git init
@@ -27,4 +30,37 @@ $ git add *
 $ git commit -m "1st commit for test file on first branch"
 
 REMOTE BRANCH 
+$ git remote –v
 $ git push origin first
+
+
+MERGE 
+$ git checkout first
+$ git push
+$ git checkout main
+$ git pull
+$ git merge first
+$ git push
+$ git pull
+$ git push
+$ git branch -d first
+
+DELETE BRANCH
+  LOCAL
+$ git branch -d first
+$ git branch -D tst-br    or this 
+  REMOTE
+  
+
+RECOVER A BRANCH
+from
+USER@DESKTOP-UDUVLJC MINGW64 ~/Desktop/djdoctutorial/djangodoc (main)
+$ git branch -d first
+Deleted branch first (was 40d4dad).
+
+$ git branch first 40d4dad
+
+
+
+
+
