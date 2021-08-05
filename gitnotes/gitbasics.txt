@@ -1,0 +1,6 @@
+HOW TO USE GIT BRANCH 
+
+git init
+git remote add origin “https://github.com/git-test-jaz/hello-git.git”
+
+$ git pull origin master
