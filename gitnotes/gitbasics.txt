@@ -61,6 +61,9 @@ Deleted branch first (was 40d4dad).
 $ git branch first 40d4dad
 
 
-
+SHOW BRANCH
+$ git branch -a
+$ git branch -r
+$ git show-branch
 
 
